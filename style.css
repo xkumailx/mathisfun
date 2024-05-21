@@ -1,0 +1,25 @@
+*{padding: 0;margin: 0;}
+
+
+body {height: 100vh;width: 100%;display: flex;justify-content: center;align-items: center;    background: url(https://www.mathsisfun.com/images/hdr/hdr-main-lite.svg); background-position: center; background-size: cover;}
+
+
+.parent{    padding: 10px;
+    border: 1px solid rgb(0, 149, 255);
+    display: flex;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+background: hsl(213deg 100% 96% / 73%);}
+
+.child{padding: 1em 0;
+    background: rgba(87, 196, 255, 0.397);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 33%;
+    width: 32%;
+    margin: 5px;}
+
+
